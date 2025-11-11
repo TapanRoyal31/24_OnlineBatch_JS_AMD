@@ -1,0 +1,21 @@
+DOM :- Document Object Model
+
+
+document object :- object with collection of key as html element and value as innertext
+
+
+To select element using javascript (selectors) :
+
+1) getElementByClassName :- access element using classname of element.it gives
+HTMLCollection
+2) getElementByIdname :- access element using Id of element
+3) querySelector :- to access first occuring element by using css selectors
+4) querySelectorAll :- to access all element by using css selectors.it gives
+NodeList
+
+To access text of HTML element:
+
+1) innertext : give text which only display on browser
+2) textContent : give text which also contain text hide from browser (all text from
+html element)
+3) innerHTML : give value of inner content of html tag
