@@ -1,0 +1,6 @@
+createElement method : The createElement() method creates an element node.
+    it createElement node in memory
+
+
+appendchild method : The appendChild() method appends a node (element) as the last child of an element. 
+    to add new element to browser from memory 

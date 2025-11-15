@@ -8,13 +8,12 @@
 // let class1 = document.getElementsByClassName("myclass");
 
 
-let id1 = document.getElementById("myid");
+// let id1 = document.getElementById("myid");
+
+// let query = document.querySelector("p");
 
 
-let query = document.querySelector("p");
-
-
-// let all = document.querySelectorAll("p")
+// let all = document.querySelectorAll("p");
 
 // console.log("query selector")
 // console.log(query);
