@@ -1,40 +1,42 @@
 Task 1 — Create & Append New Elements
-
+-----------------------------------------------------------------------------------
 Write JS code that:
 	Creates a new <li> element using createElement
 	Adds text inside it
 	Appends it to the existing <ul>
 	Uses a function to perform the whole task when a button is clicked.
 
-Task 2 — Change Styles Using DOM
 
+Task 2 — Change Styles Using DOM
+-----------------------------------------------------------------------------------
 Write a function that:
 	Selects a <div> using getElementById
 	Changes its background color, text color, and padding when a button is pressed
 	Do all styling changes through JS only.
 
-Task 3 — Input Reader & Display Box
 
+Task 3 — Input Reader & Display Box
+-----------------------------------------------------------------------------------
 Create a function that:
 	Reads text from an <input> field
 	Creates a new <p> element
 	Displays the input text inside that <p> in a result area using appendChild.
 
-Task 4 — Hide & Show Element
 
+Task 4 — Hide & Show Element
+-----------------------------------------------------------------------------------
 Using a function:
 	Select an element with querySelector
 	Apply style changes to hide it (display:none)
 	Another button should show it again.
 
-Task 5 — Dynamic Card Creator
 
+Task 5 — Dynamic Card Creator
+-----------------------------------------------------------------------------------
 	Create a function that:
 	Creates a new <div> card (use createElement)
 	Inside it add:
 		<h3> title
 		<p> description text
-
-Add border, padding, and background color through JS styling
-
-Append the card to a container.
+	Add border, padding, and background color through JS styling
+	Append the card to a container.
