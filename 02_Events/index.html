@@ -9,6 +9,8 @@
     <form action="">
         <div id="par">hello</div>
         <!-- event attribute -->
+        <button type="button" onclick="alert('hello world!!!')">click me!!</button>
+
         <button type="submit" id="submit">submit</button>
     </form>
 </body>
@@ -25,6 +27,7 @@
         alert('submit button clicked!!');
     })
 
+    // propogation 
     submitbtn.addEventListener('click',function(){
         alert('submit button function2!!!');
     })

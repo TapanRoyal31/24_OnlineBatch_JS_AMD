@@ -1,0 +1,21 @@
+Event : An HTML event can be something the browser does, or something a user does.
+        when user done any action on browser or else browser done any action is known as html Events
+    Ex. mouse click,double click,hover,keyboard keypress,mouse drag etc.....
+
+There are three ways to manipulate Event in js:
+---------------------------------------------------------------
+1) Attribute :              Event = 'action' 
+    <button type="button" onclick="alert('hello world!!!')">click me!!</button>
+
+2) Function call by Attribute :     function calling
+    <button type="button" onclick="onclick()">click me!!</button>
+
+    function oneclick() {
+        alert('hello world!!!');
+    }
+
+3) Eventlistner method : 
+            addEventListener method
+    submitbtn.addEventListener('click',function(){
+        alert('submit button function2!!!');
+    })
