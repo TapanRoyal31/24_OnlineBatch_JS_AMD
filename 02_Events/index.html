@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <form action="">
+        <div id="par">hello</div>
+        <!-- event attribute -->
+        <button type="submit" id="submit">submit</button>
+    </form>
+</body>
+<script>
+    let submitbtn = document.getElementById('submit');
+
+    // Event by calling function
+    function oneclick() {
+        alert('hello world!!!');
+    }
+
+    // addEventlistener property
+    submitbtn.addEventListener('click',function () {
+        alert('submit button clicked!!');
+    })
+
+    submitbtn.addEventListener('click',function(){
+        alert('submit button function2!!!');
+    })
+</script>
+</html>
